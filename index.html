@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Nazar Pasechnyi" />
+    <meta name="description" content="I just practice my HTML&CSS skills" />
+    <title>Castaway</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container">
+          <div class="header__inner">
+            <a href="#" class="header__logo">
+              <img
+                src="img/header/Logo.svg"
+                alt="Logo"
+                width="160"
+                height="33"
+                loading="lazy"
+              />
+            </a>
+            <nav class="header__menu">
+              <ul class="header__list">
+                <li class="header__item">
+                  <a href="#" class="header__link">Home</a>
+                </li>
+                <li class="header__item">
+                  <a href="#" class="header__link">Episodes</a>
+                </li>
+                <li class="header__item">
+                  <a href="#" class="header__link">About</a>
+                </li>
+                <li class="header__item">
+                  <a href="#" class="header__link">Contact</a>
+                </li>
+              </ul>
+            </nav>
+            <button id="burger" aria-label="burger menu">
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <section class="hero">
+          <div class="hero__container">
+            <div class="hero__inner">
+              <div class="hero__image">
+                <img
+                  src="img/hero/hero-image.webp"
+                  alt="Hero image"
+                  width="650"
+                  height="873"
+                  loading="lazy"
+                />
+              </div>
+              <div class="hero__content">
+                <h1 class="hero__title">
+                  Take your podcast to the <span class="text-decor">next</span>
+                  <span class="text-bold">level</span>
+                </h1>
+                <h4 class="hero__listen-title">Listen on</h4>
+                <ul class="listen-list">
+                  <li class="listen-list__item">
+                    <a href="#" class="listen-list__link">
+                      <img
+                        src="img/listen-list/spotify.svg"
+                        alt="Spotify"
+                        width="32"
+                        height="32"
+                        loading="lazy"
+                      />
+                    </a>
+                  </li>
+                  <li class="listen-list__item">
+                    <a href="#" class="listen-list__link">
+                      <img
+                        src="img/listen-list/podcast-1.svg"
+                        alt="Podcast 1"
+                        width="32"
+                        height="32"
+                        loading="lazy"
+                      />
+                    </a>
+                  </li>
+                  <li class="listen-list__item">
+                    <a href="#" class="listen-list__link">
+                      <img
+                        src="img/listen-list/soundcloud.svg"
+                        alt="Soundcloud"
+                        width="32"
+                        height="32"
+                        loading="lazy"
+                      />
+                    </a>
+                  </li>
+                  <li class="listen-list__item">
+                    <a href="#" class="listen-list__link">
+                      <img
+                        src="img/listen-list/podcast-2.svg"
+                        alt="Podcast 2"
+                        width="32"
+                        height="32"
+                        loading="lazy"
+                      />
+                    </a>
+                  </li>
+                  <li class="listen-list__item">
+                    <a href="#" class="listen-list__link">
+                      <img
+                        src="img/listen-list/podcast-3.svg"
+                        alt="Podcast 3"
+                        width="32"
+                        height="32"
+                        loading="lazy"
+                      />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="episodes">
+          <div class="episodes__container">
+            <div class="episodes__inner">
+              <header class="episodes__header">
+                <h2 class="episodes__title title">Latest episodes</h2>
+                <a href="#" class="episodes__btn btn">View all episodes</a>
+              </header>
+              <div class="episodes__row">
+                <article class="episodes__card">
+                  <div class="episodes__card-image">
+                    <img
+                      src="img/episodes/card-img-1.webp"
+                      alt="Card image"
+                      width="389"
+                      height="465"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="episodes__card-content">
+                    <div class="episodes__card-type">Gear</div>
+                    <h4 class="episodes__card-count">Episode 3</h4>
+                    <h2 class="episodes__card-title">
+                      Should you get outboard audio gear?
+                    </h2>
+                    <p class="episodes__card-description">
+                      Is hardware really worth it when it comes to podcasting?
+                      The answer is...it depends. Here’s our reasons on why you
+                      might want to consider picking something up.
+                    </p>
+                    <a href="#" class="episodes__card-btn btn"
+                      >View Episode Details</a
+                    >
+                  </div>
+                </article>
+                <article class="episodes__card">
+                  <div class="episodes__card-image">
+                    <img
+                      src="img/episodes/card-img-2.webp"
+                      alt="Card image"
+                      width="389"
+                      height="432"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="episodes__card-content">
+                    <div class="episodes__card-type">Tips & Tricks</div>
+                    <h4 class="episodes__card-count">Episode 2</h4>
+                    <h2 class="episodes__card-title">
+                      Mic tricks to take you to the next level
+                    </h2>
+                    <p class="episodes__card-description">
+                      Stop rolling with those default settings on your mic.
+                      These small tweaks will take you from sounding good to
+                      great.
+                    </p>
+                    <a href="#" class="episodes__card-btn btn"
+                      >View Episode Details</a
+                    >
+                  </div>
+                </article>
+                <article class="episodes__card">
+                  <div class="episodes__card-image">
+                    <img
+                      src="img/episodes/card-img-1.webp"
+                      alt="Card image"
+                      width="389"
+                      height="465"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="episodes__card-content">
+                    <div class="episodes__card-type">Gear</div>
+                    <h4 class="episodes__card-count">Episode 1</h4>
+                    <h2 class="episodes__card-title">
+                      The best microphone under $200
+                    </h2>
+                    <p class="episodes__card-description">
+                      With so many microphones on the market, how are you
+                      supposed to know what’s the best? Take a look at our top
+                      picks.
+                    </p>
+                    <a href="#" class="episodes__card-btn btn"
+                      >View Episode Details</a
+                    >
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="host">
+          <div class="host__container">
+            <div class="host__inner">
+              <div class="host__content">
+                <a href="#" class="host__btn" aria-label="link to host"></a>
+                <div class="host__subtitle">Meet your host</div>
+                <h2 class="host__title">Jacob Paulaner</h2>
+                <p class="host__text">
+                  Jacob has a background in audio engineering, and has been
+                  podcasting since the early days.
+                </p>
+                <p class="host__text">
+                  He’s here to help you level up your game by sharing everything
+                  he’s learned along the way.
+                </p>
+              </div>
+              <div class="host__image">
+                <img
+                  src="img/host/host.webp"
+                  alt="Host"
+                  width="650"
+                  height="735"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="newsletter">
+          <div class="newsletter__container">
+            <div class="newsletter__inner">
+              <header class="newsletter__header">
+                <div class="newsletter__subtitle">Email Newsletter</div>
+                <h2 class="newsletter__title">Subscribe for updates</h2>
+              </header>
+              <form action="#" class="newsletter__form">
+                <input
+                  type="text"
+                  class="newsletter__input"
+                  placeholder="Name"
+                />
+                <input
+                  type="text"
+                  class="newsletter__input"
+                  placeholder="Email"
+                />
+                <button class="newsletter__btn btn">Submit</button>
+              </form>
+            </div>
+          </div>
+        </section>
+        <section class="reviews">
+          <div class="reviews__container">
+            <div class="reviews__inner">
+              <div class="reviews__row">
+                <article class="reviews__card">
+                  <img
+                    src="img/reviews/stars.svg"
+                    alt="Starts"
+                    class="reviews__stars"
+                    width="110"
+                    height="17"
+                    loading="lazy"
+                  />
+                  <p class="reviews__text">
+                    I can’t recommend this podcast enough
+                  </p>
+                  <div class="reviews__author">Betty Lacey</div>
+                </article>
+                <article class="reviews__card">
+                  <img
+                    src="img/reviews/stars.svg"
+                    alt="Starts"
+                    class="reviews__stars"
+                    width="110"
+                    height="17"
+                    loading="lazy"
+                  />
+                  <p class="reviews__text">Jacob is the best in the business</p>
+                  <div class="reviews__author">Adam Driver</div>
+                </article>
+                <article class="reviews__card">
+                  <img
+                    src="img/reviews/stars.svg"
+                    alt="Starts"
+                    class="reviews__stars"
+                    width="110"
+                    height="17"
+                    loading="lazy"
+                  />
+                  <p class="reviews__text">A wealth of audio knowledge</p>
+                  <div class="reviews__author">Marcus Brown</div>
+                </article>
+                <article class="reviews__card">
+                  <img
+                    src="img/reviews/stars.svg"
+                    alt="Starts"
+                    class="reviews__stars"
+                    width="110"
+                    height="17"
+                    loading="lazy"
+                  />
+                  <p class="reviews__text">Every episode is a gem!</p>
+                  <div class="reviews__author">Jessica Knowl</div>
+                </article>
+                <article class="reviews__card">
+                  <img
+                    src="img/reviews/stars.svg"
+                    alt="Starts"
+                    class="reviews__stars"
+                    width="110"
+                    height="17"
+                    loading="lazy"
+                  />
+                  <p class="reviews__text">
+                    Whoa whoa, let me take some notes!
+                  </p>
+                  <div class="reviews__author">Scott Adams</div>
+                </article>
+                <article class="reviews__card">
+                  <img
+                    src="img/reviews/stars.svg"
+                    alt="Starts"
+                    class="reviews__stars"
+                    width="110"
+                    height="17"
+                    loading="lazy"
+                  />
+                  <p class="reviews__text">
+                    I’ve upped my game considerably since I started listening
+                  </p>
+                  <div class="reviews__author">Steven Blast</div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__inner">
+            <header class="footer__header">
+              <a href="#" class="footer__logo">
+                <img
+                  src="img/header/Logo.svg"
+                  alt="Logo"
+                  width="224"
+                  height="46"
+                  loading="lazy"
+                />
+              </a>
+              <ul class="footer__social-list social-list">
+                <li class="social-list__item">
+                  <a href="#" class="social-list__link"
+                    ><img src="img/footer/instagram.svg" alt="Instagram"
+                  /></a>
+                </li>
+                <li class="social-list__item">
+                  <a href="#" class="social-list__link"
+                    ><img src="img/footer/twitter.svg" alt="Twitter"
+                  /></a>
+                </li>
+                <li class="social-list__item">
+                  <a href="#" class="social-list__link"
+                    ><img src="img/footer/facebook.svg" alt="Facebook"
+                  /></a>
+                </li>
+              </ul>
+            </header>
+            <nav class="footer__menu">
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Home</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">About</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Episodes</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Contact</a>
+                </li>
+              </ul>
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Style Guide</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Instructions</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Changelog</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Credit</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Powered by Webflow</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Licenses</a>
+                </li>
+              </ul>
+            </nav>
+            <ul class="listen-list">
+              <li class="listen-list__item">
+                <a href="#" class="listen-list__link">
+                  <img
+                    src="img/listen-list/spotify.svg"
+                    alt="Spotify"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                  />
+                </a>
+              </li>
+              <li class="listen-list__item">
+                <a href="#" class="listen-list__link">
+                  <img
+                    src="img/listen-list/podcast-1.svg"
+                    alt="Podcast 1"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                  />
+                </a>
+              </li>
+              <li class="listen-list__item">
+                <a href="#" class="listen-list__link">
+                  <img
+                    src="img/listen-list/soundcloud.svg"
+                    alt="Soundcloud"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                  />
+                </a>
+              </li>
+              <li class="listen-list__item">
+                <a href="#" class="listen-list__link">
+                  <img
+                    src="img/listen-list/podcast-2.svg"
+                    alt="Podcast 2"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                  />
+                </a>
+              </li>
+              <li class="listen-list__item">
+                <a href="#" class="listen-list__link">
+                  <img
+                    src="img/listen-list/podcast-3.svg"
+                    alt="Podcast 3"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- JS -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
